@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Ojeda | Programador Full-Stack</title>
+    <meta name="description" content="Portafolio y CV de Benjamin Ojeda, Desarrollador Full-Stack.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">BO<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#contact" class="btn-outline">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hola, soy</p>
+                <h1 class="glitch-text" data-text="Benjamin Ojeda">Benjamin Ojeda</h1>
+                <h2 class="role">Desarrollador Full-Stack</h2>
+                <p class="summary">Especializado en crear soluciones de software sólidas, optimizadas y visualmente atractivas. Transformo ideas complejas en código eficiente.</p>
+                
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-glow">Trabajemos juntos</a>
+                    <a href="#experience" class="btn-glass">Ver mis proyectos <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="image-container tilt-effect">
+                    <!-- Placeholder o foto tuya -->
+                    <img src="https://ui-avatars.com/api/?name=Benjamin+Ojeda&size=512&background=random&color=fff&bold=true" alt="Benjamin Ojeda" class="profile-pic">
+                    <div class="floating-badge badge-1"><i class="fab fa-php"></i></div>
+                    <div class="floating-badge badge-2"><i class="fab fa-js"></i></div>
+                    <div class="floating-badge badge-3"><i class="fas fa-database"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí<span class="dot">.</span></h2>
+            <div class="about-grid">
+                <div class="about-card glass-card reveal">
+                    <p>Soy estudiante de Tecnologías de la Información con un fuerte interés en el desarrollo de software, administración de sistemas, análisis funcional y soporte IT. Apasionado por la innovación tecnológica y la resolución de problemas reales.</p>
+                    <p>Poseo conocimientos sólidos en desarrollo Full-Stack, gestión de bases de datos, metodologías ágiles y soporte técnico. Busco la excelencia y la mejora continua en cada línea de código que escribo.</p>
+                </div>
+                <div class="personal-info glass-card reveal" style="transition-delay: 200ms;">
+                    <ul>
+                        <li><strong><i class="fas fa-calendar"></i> Edad:</strong> 22 años (24 May 2003)</li>
+                        <li><strong><i class="fas fa-map-marker-alt"></i> Ubicación:</strong> Fighiera / Santa Fe</li>
+                        <li><strong><i class="fas fa-language"></i> Idiomas:</strong> Español (Nativo), Inglés (B1 Intermedio)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Educación<span class="dot">.</span></h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Tecnicatura Universitaria en Tecnologías de la Información</h3>
+                        <h4>Universidad Tecnológica Nacional (UTN), San Nicolás</h4>
+                        <p class="timeline-date">Estudios en curso (3er año)</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Bachiller en Ciencias Sociales</h3>
+                        <h4>Centro de Altos Estudios F-96 (Tucumán)</h4>
+                        <p class="timeline-date">Quinto a Sexto año</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Secundario (1er a 4to año)</h3>
+                        <h4>EESOPI N°3007 (Fighiera, Santa Fe)</h4>
+                        <p class="timeline-date">2015 - 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas<span class="dot">.</span></h2>
+            
+            <div class="skills-slider reveal">
+                <div class="slider-track" id="skillsTrack">
+                    <!-- Generado por JS -->
+                </div>
+            </div>
+            
+            <div class="skills-grid reveal" style="margin-top: 3rem;">
+                <div class="skill-box glass-card">
+                    <i class="fas fa-code color-primary"></i>
+                    <h3>Lenguajes</h3>
+                    <p>JavaScript, PHP, Java, C#, TypeScript</p>
+                </div>
+                <div class="skill-box glass-card">
+                    <i class="fas fa-server color-secondary"></i>
+                    <h3>Frameworks & Librerías</h3>
+                    <p>Spring Boot, Java Swing, Hibernate, Laravel, .NET</p>
+                </div>
+                <div class="skill-box glass-card">
+                    <i class="fas fa-database color-tertiary"></i>
+                    <h3>Bases de Datos</h3>
+                    <p>MySQL, SQL, Diseño Relacional</p>
+                </div>
+                <div class="skill-box glass-card">
+                    <i class="fas fa-tools color-primary"></i>
+                    <h3>Herramientas & IT</h3>
+                    <p>Docker, GitHub, Canva, Figma, Soporte y Hardware</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Projects -->
+    <section id="experience" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Experiencia & Proyectos<span class="dot">.</span></h2>
+            
+            <div class="projects-grid">
+                <!-- Trabajo Actual: Silcar Logística -->
+                <div class="project-card glass-card reveal">
+                    <div class="project-header">
+                        <i class="fas fa-briefcase project-icon"></i>
+                        <div class="project-tech">
+                            <span>Trabajo Actual</span>
+                            <span>Sistemas</span>
+                            <span>Full-Stack</span>
+                        </div>
+                    </div>
+                    <h3>Desarrollador Full-Stack | Área de Sistemas</h3>
+                    <p class="project-desc"><strong>Silcar Logística</strong><br>Actualmente formo parte del área de sistemas desarrollando y manteniendo soluciones de software integrales, optimizando procesos logísticos internos y aportando mejoras continuas a la infraestructura y plataforma tecnológica de la empresa.</p>
+                </div>
+                
+                <!-- Ticket System -->
+                <div class="project-card glass-card reveal">
+                    <div class="project-header">
+                        <i class="fas fa-ticket-alt project-icon"></i>
+                        <div class="project-tech">
+                            <span>Laravel 12</span>
+                            <span>FilamentPHP</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                    <h3>Sistema de Gestión de Tickets Interno</h3>
+                    <p class="project-desc">Desarrollo e implementación de un sistema completo para la gestión interna de incidencias. Incluye un flujo avanzado de operaciones, notificaciones reactivas automáticas según eventos en el sistema, permisos estructurados por roles (Admin, Operador, Usuario) y control de validación en cierre de casos.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Asignación automática o manual de operadores.</li>
+                        <li><i class="fas fa-check"></i> Dashboard administrativo y métricas interactivas.</li>
+                        <li><i class="fas fa-check"></i> Lógica de restricciones para evitar conflictos de edición concurrente.</li>
+                        <li><i class="fas fa-check"></i> Arquitectura basada en Observers para el manejo de notificaciones.</li>
+                    </ul>
+                </div>
+                
+                <!-- Otros posibles... -->
+                <div class="project-card glass-card reveal" style="transition-delay: 200ms;">
+                    <div class="project-header">
+                        <i class="fas fa-laptop-code project-icon"></i>
+                        <div class="project-tech">
+                            <span>Mantenimiento</span>
+                            <span>Redes</span>
+                        </div>
+                    </div>
+                    <h3>Soporte & Admin de Sistemas</h3>
+                    <p class="project-desc">Conocimientos técnicos de hardware comercial, armado de equipos, detección y diagnóstico de fallas (troubleshooting), además del manejo y mantenimiento de Office y recursos ofimáticos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Envíame un correo<span class="dot">.</span></h2>
+            <div class="contact-wrapper glass-card reveal">
+                <div class="contact-info">
+                    <h3>¿Tienes un proyecto o necesitas soporte?</h3>
+                    <p>Actualmente estoy buscando nuevas oportunidades para aplicar mis destrezas y seguir creciendo como profesional IT. Siéntete libre de contactarme.</p>
+                    
+                    <div class="contact-details">
+                        <div class="cd-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:benjaminojedas29@gmail.com">benjaminojedas29@gmail.com</a>
+                        </div>
+                        <div class="cd-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+543402547927">(3402) 547927</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <!-- Formsubmit con control AntiSpam Integrado. 
+                    Redirecciona a una UI amigable por defecto e incluye Captcha si hay sospechas -->
+                    <form action="https://formsubmit.co/benjaminojedas29@gmail.com" method="POST" class="contact-form" id="contactForm">
+                        
+                        <!-- Anti-spam honeypot (Invisible field) -->
+                        <input type="text" name="_honey" style="display:none">
+                        <!-- Desactiva captcha por defecto si no lo deseas, pero Formsubmit lo maneja seguro 
+                        <input type="hidden" name="_captcha" value="false"> -->
+                        <!-- Template para email: -->
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_autoresponse" value="Gracias por contactar con Benjamin Ojeda. He recibido tu mensaje y te responderé lo más pronto posible.">
+                        <!-- Permite redireccionar a una pagina especifica tras enviar, vamos a usar thank you custom -->
+                        <input type="hidden" name="_next" value="http://localhost:3000/"> <!-- Temporal. Cuando lo hospedes cambia el Next url. O quítalo para usar el default. -->
+                        
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="Contacto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="Mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-glow btn-submit">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Benjamin Ojeda. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <!-- Vínculos a tus redes aquí -->
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
